@@ -2,7 +2,7 @@ package repository
 
 import (
 	"errors"
-	"wallet-backend/internal/model"
+	"wallet-backend/core/model"
 
 	"gorm.io/gorm"
 )

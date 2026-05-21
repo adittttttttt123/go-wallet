@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"wallet-backend/config"
-	"wallet-backend/internal/handler"
-	"wallet-backend/internal/repository"
+	"wallet-backend/core/handler"
+	"wallet-backend/core/repository"
 
 	"github.com/gin-gonic/gin"
 )

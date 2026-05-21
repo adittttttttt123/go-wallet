@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"wallet-backend/internal/model"
+	"wallet-backend/core/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

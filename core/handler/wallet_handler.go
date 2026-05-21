@@ -2,8 +2,8 @@ package handler
 
 import (
 	"net/http"
-	"wallet-backend/internal/model"
-	"wallet-backend/internal/repository"
+	"wallet-backend/core/model"
+	"wallet-backend/core/repository"
 
 	"github.com/gin-gonic/gin"
 )
