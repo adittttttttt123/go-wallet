@@ -22,6 +22,13 @@ func init() {
 	walletHandler := handler.NewWalletHandler(walletRepo)
 
 	// Setup routes
+	r.GET("/", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "Go-Wallet API is running smoothly! 🚀",
+			"status":  "active",
+		})
+	})
+
 	api := r.Group("/api/v1")
 	{
 		api.POST("/wallets", walletHandler.CreateWallet)
